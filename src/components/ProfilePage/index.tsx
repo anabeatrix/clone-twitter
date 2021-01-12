@@ -27,7 +27,14 @@ const ProfilePage: React.FC = () => {
                     Nascido(a) em 23 de janeiro de 2000 
                 </li>
             </ul>
-            
+            <Followage>
+                <span>
+                    seguindo <strong>12</strong>
+                </span>
+                <span>
+                    <strong>20 </strong> seguidores
+                </span>
+            </Followage>
         </ProfileData>
     </Container>
     );
